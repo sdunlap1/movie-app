@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#movieList").empty(); //Clear the movie list before displaying update list
     movies.forEach(function (movie, index) {
       $("#movieList").append(
-     `<div class="movie-item d-flex justify-content-between align-items-center mb-2">
+     `<div class="movie-item d-flex justify-content-between align-items-center mb-2 col-lg-5">
         <div class="col-5">
           Title: ${movie.title}
         </div>
